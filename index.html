@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>Aplikasi Multimedia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.10.2.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.0.min.js"></script>
+        <link href="src/css/jquery.mobile-1.4.0.min.css" rel="stylesheet"
+        />
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>Aplikasi Multimedia</h1>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#image">Image</a>
+                    </li>
+                    <li>
+                        <a href="#animasi">Animasi</a>
+                    </li>
+                    <li>
+                        <a href="#audio">Audio</a>
+                    </li>
+                    <li>
+                        <a href="#video">Video</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <h1>Canggah Tri Aji S (TI 3.2)</h1>
+            </div>
+        </div>
+        <div data-role="page" id="image">
+            <div data-role="header">
+                <h1>Image</h1>
+                <a data-role="button" href="#page1" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+            <center>
+                <img src="src/image/mu.jpg" width="50%" height="50%">
+            </center>
+            </div>
+            <div data-role="footer">
+                <h1>Canggah Tri Aji S (TI 3.2)</h1>
+            </div>
+        </div>
+        <div data-role="page" id="animasi">
+            <div data-role="header">
+                <h1>Animasi</h1>
+                <a data-role="button" href="#page1" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+            <center>
+                <img src="src/image/animasi.gif" width="30%" height="30%">
+            </center>
+            </div>
+            <div data-role="footer">
+                <h1>Canggah Tri Aji S (TI 3.2)</h1>
+            </div>
+        </div>
+        <div data-role="page" id="audio">
+            <div data-role="header">
+                <h1>Audio</h1>
+                <a data-role="button" href="#page1" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+            <center>
+                <audio controls>
+                    <source src="src/audio/KataPujangga.mp3" type="audio/mp3">
+                </audio>
+            </center>
+            </div>
+            <div data-role="footer">
+                <h1>Canggah Tri Aji S (TI 3.2)</h1>
+            </div>
+        </div>
+        <div data-role="page" id="video">
+            <div data-role="header">
+                <h1>Video</h1>
+                <a data-role="button" href="#page1" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+            <center>
+            <video width="30%" heigth="30%" controls>
+                <source src="src/video/movie.mp4" type="video/mp4">
+            </video><br>
+            </center>
+            </div>
+            <div data-role="footer">
+                <h1>Canggah Tri Aji S (TI 3.2)</h1>
+            </div>
+        </div>
+    </body>
+
+</html>
